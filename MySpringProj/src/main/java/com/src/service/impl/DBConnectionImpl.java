@@ -14,7 +14,7 @@ public class DBConnectionImpl implements DBConnection {
 		Connection conn = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			System.out.println("Data!!!");
+			System.out.println("Data Divya!!!");
 			conn = DriverManager.getConnection(DB_URL, USER, PASS);
 			System.out.println("Connecting to a selected database...");
 		} catch (SQLException e) {
